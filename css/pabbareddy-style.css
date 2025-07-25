@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(to right, #ffe4c4, #f5d0ff);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #2e003e;
+}
+
+h1, h2, h3 {
+  color: #4a0066;
+  text-decoration: underline;
+  font-family: "Georgia", serif;
+}
+
+p {
+  color: #3a003f;
+}
+
+figcaption {
+  color: #ffffff;
+  font-style: italic;
+  text-align: center;
+}
+
+.ingredients {
+  background-color: #d69be0;
+}
+
+.instructions {
+  background-color: #aa46d4;
+}
+
+ul, ol, li {
+  color: #fff;
+}
+
+.rate {
+  background-color: #cf71f7;
+  text-align: center;
+}
+
+fieldset {
+  width: 280px;
+  background: #d795f5;
+}
+
+legend {
+  color: white;
+  font-weight: bold;
+  background-color: #7b00a0;
+}
+
+input {
+  color: #000;
+}
+
+input:hover {
+  background-color: #f3e6ff;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+.container > div{
+  flex: 1 1 calc(50% - 1rem);
+  min-height: 200px;
+  padding: 1rem;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
